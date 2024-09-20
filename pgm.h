@@ -2,9 +2,9 @@
 #define __PGM_H
 
 #ifdef WIN32
- #include <libusb-1.0/libusb.h>
+ #include "libusb-1.0/libusb.h"
 #else
- #include <libusb.h>
+ #include "libusb.h"
 #endif
 
 #include "stm8.h"

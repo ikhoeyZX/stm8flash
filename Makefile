@@ -36,7 +36,7 @@ else ifeq ($(PLATFORM),FreeBSD)
 else
 # 	Generic case is Windows
 
-	LIBS   = -lusb-1.0
+	LIBS   = libusb-1.0.dll.a
 	LIBUSB_CFLAGS =
 	CC	   ?= GCC
 	BIN_SUFFIX =.exe
