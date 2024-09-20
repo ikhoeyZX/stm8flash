@@ -9,6 +9,14 @@ Since 2018, OpenOCD also offers the basic functionality, and also has support fo
 As of early 2018, stm8flash has wider device support, and better support for memory read/wite operations.
 
 
+Build
+```
+make
+```
+
+if you want update libusb, you can download it from : https://github.com/libusb/libusb/releases
+for windows select MinGW32/64 (depend what version you make, in this repo using 64bit)
+
 Synopsis
 --------
 
